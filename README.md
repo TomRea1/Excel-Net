@@ -10,7 +10,7 @@
 
 ## Overview
 
-Excel-net is a tiny neural network built and trained exclusively in Excel. I recently started work as a Data Scientist and recently I've been working on some projects with some pretty complex Power Query / Excel Formulas. I was blown away by how much you can do with Excel and it got me thinking about the fundamental operations required for neural networks. I decided I was going to give it a go and over the weekend I built out this xlsm. 
+Excel-net is a tiny neural network built and trained exclusively in Excel. I recently started my job as a Data Scientist and I've been working on some projects with some pretty complex Power Query / Excel Formulas. I was blown away by how much you can do with Excel and it got me thinking about the fundamental operations required for neural networks. I decided I was going to give it a go and over the weekend I built out this xlsm. 
 
 I would absolutely recommend playing around with this file / trying this project for yourself both to dive into the machine learning fundamentals and improve your Excel skills !  
 
