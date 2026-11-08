@@ -57,6 +57,10 @@ I implemented Leaky ReLU to avoid dead neurons during the process of trying to m
 
 3 Do the same for the bias terms.
 
-4 Once you're ready and you have your weights and biases initialised - press 'Train Model' to run.
+4 Once you're ready and you have your weights and biases initialised - press 'Train Model' to run. I would recommend setting them to =RAND()*1-0.3 ish. Copy that formula down for all of the weights and biases to initialise and then select all, CTRL C, CTRL SHIFT V on all values to copy and then paste their raw values. Make sure not to leave these cells formula populated or the weights will just always be random and the network can't learn.
 
 ```
+
+If the network doesn't converge for you it is likely the weight initialisation. Due to the network's size, it can be quite sensitive to these starting weights. I would just reinitialise and run again, perhaps increase the epochs if you want to give it a chance to learn a more complex solution.
+
+
